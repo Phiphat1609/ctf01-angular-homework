@@ -1,0 +1,8 @@
+
+<div>
+    <h2>Lab4 Componnent Work ! (form lab4.component.html)</h2>
+</div>
+<div *ngFor = "let item of items">
+    <p class = "number-even" *ngIf = "item %2 === 0">{{item}}</p>
+    <p class = "number-odd" *ngIf = "item %2 !== 0">{{item}}</p>
+</div>
